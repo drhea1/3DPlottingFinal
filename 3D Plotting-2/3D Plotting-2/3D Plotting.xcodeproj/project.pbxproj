@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6D9B5972644880F0068B061 /* Wavefunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D9B5952644880F0068B061 /* Wavefunctions.swift */; };
+		A6D9B5982644880F0068B061 /* OverlapIntegral.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D9B5962644880F0068B061 /* OverlapIntegral.swift */; };
+		D06E73702641B09800AC794B /* _D_PlottingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E736F2641B09800AC794B /* _D_PlottingApp.swift */; };
+		D06E73722641B09800AC794B /* PlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E73712641B09800AC794B /* PlotView.swift */; };
+		D06E73742641B09800AC794B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06E73732641B09800AC794B /* Assets.xcassets */; };
+		D06E73772641B09800AC794B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06E73762641B09800AC794B /* Preview Assets.xcassets */; };
+		D06E73822641B11800AC794B /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E73812641B11800AC794B /* BoundingBox.swift */; };
+		D06E73842641B12000AC794B /* PointCompiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E73832641B12000AC794B /* PointCompiler.swift */; };
+		D06E73882641B9D000AC794B /* plot-landscape.scn in Resources */ = {isa = PBXBuildFile; fileRef = D06E73872641B9D000AC794B /* plot-landscape.scn */; };
+		D06E738B2641C93E00AC794B /* TextFieldWithTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E738A2641C93E00AC794B /* TextFieldWithTitle.swift */; };
+		D06E73902641D17200AC794B /* CustomPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E738F2641D17200AC794B /* CustomPicker.swift */; };
+		D06E73922641D39400AC794B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E73912641D39400AC794B /* CustomButton.swift */; };
+		D06E73972641DFED00AC794B /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06E73962641DFED00AC794B /* Point.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6D9B5952644880F0068B061 /* Wavefunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wavefunctions.swift; sourceTree = "<group>"; };
+		A6D9B5962644880F0068B061 /* OverlapIntegral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlapIntegral.swift; sourceTree = "<group>"; };
+		D06E736C2641B09800AC794B /* 3D Plotting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D Plotting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06E736F2641B09800AC794B /* _D_PlottingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_PlottingApp.swift; sourceTree = "<group>"; };
+		D06E73712641B09800AC794B /* PlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotView.swift; sourceTree = "<group>"; };
+		D06E73732641B09800AC794B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D06E73762641B09800AC794B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D06E73782641B09800AC794B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06E73792641B09800AC794B /* _D_Plotting.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _D_Plotting.entitlements; sourceTree = "<group>"; };
+		D06E73812641B11800AC794B /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
+		D06E73832641B12000AC794B /* PointCompiler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCompiler.swift; sourceTree = "<group>"; };
+		D06E73872641B9D000AC794B /* plot-landscape.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "plot-landscape.scn"; sourceTree = "<group>"; };
+		D06E738A2641C93E00AC794B /* TextFieldWithTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithTitle.swift; sourceTree = "<group>"; };
+		D06E738F2641D17200AC794B /* CustomPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPicker.swift; sourceTree = "<group>"; };
+		D06E73912641D39400AC794B /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		D06E73962641DFED00AC794B /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D06E73692641B09800AC794B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D06E73632641B09800AC794B = {
+			isa = PBXGroup;
+			children = (
+				D06E736E2641B09800AC794B /* 3D Plotting */,
+				D06E736D2641B09800AC794B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D06E736D2641B09800AC794B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D06E736C2641B09800AC794B /* 3D Plotting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D06E736E2641B09800AC794B /* 3D Plotting */ = {
+			isa = PBXGroup;
+			children = (
+				A6D9B5962644880F0068B061 /* OverlapIntegral.swift */,
+				A6D9B5952644880F0068B061 /* Wavefunctions.swift */,
+				D06E73962641DFED00AC794B /* Point.swift */,
+				D06E73832641B12000AC794B /* PointCompiler.swift */,
+				D06E73812641B11800AC794B /* BoundingBox.swift */,
+				D06E73712641B09800AC794B /* PlotView.swift */,
+				D06E736F2641B09800AC794B /* _D_PlottingApp.swift */,
+				D06E73872641B9D000AC794B /* plot-landscape.scn */,
+				D06E738E2641CDFF00AC794B /* Extensions */,
+				D06E73732641B09800AC794B /* Assets.xcassets */,
+				D06E73782641B09800AC794B /* Info.plist */,
+				D06E73792641B09800AC794B /* _D_Plotting.entitlements */,
+				D06E73752641B09800AC794B /* Preview Content */,
+			);
+			path = "3D Plotting";
+			sourceTree = "<group>";
+		};
+		D06E73752641B09800AC794B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D06E73762641B09800AC794B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D06E738E2641CDFF00AC794B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D06E738A2641C93E00AC794B /* TextFieldWithTitle.swift */,
+				D06E738F2641D17200AC794B /* CustomPicker.swift */,
+				D06E73912641D39400AC794B /* CustomButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D06E736B2641B09800AC794B /* 3D Plotting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06E737C2641B09800AC794B /* Build configuration list for PBXNativeTarget "3D Plotting" */;
+			buildPhases = (
+				D06E73682641B09800AC794B /* Sources */,
+				D06E73692641B09800AC794B /* Frameworks */,
+				D06E736A2641B09800AC794B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3D Plotting";
+			productName = "3D Plotting";
+			productReference = D06E736C2641B09800AC794B /* 3D Plotting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D06E73642641B09800AC794B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D06E736B2641B09800AC794B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = D06E73672641B09800AC794B /* Build configuration list for PBXProject "3D Plotting" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D06E73632641B09800AC794B;
+			productRefGroup = D06E736D2641B09800AC794B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D06E736B2641B09800AC794B /* 3D Plotting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D06E736A2641B09800AC794B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06E73772641B09800AC794B /* Preview Assets.xcassets in Resources */,
+				D06E73882641B9D000AC794B /* plot-landscape.scn in Resources */,
+				D06E73742641B09800AC794B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D06E73682641B09800AC794B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D9B5972644880F0068B061 /* Wavefunctions.swift in Sources */,
+				D06E73972641DFED00AC794B /* Point.swift in Sources */,
+				D06E73822641B11800AC794B /* BoundingBox.swift in Sources */,
+				D06E73722641B09800AC794B /* PlotView.swift in Sources */,
+				D06E73902641D17200AC794B /* CustomPicker.swift in Sources */,
+				A6D9B5982644880F0068B061 /* OverlapIntegral.swift in Sources */,
+				D06E73702641B09800AC794B /* _D_PlottingApp.swift in Sources */,
+				D06E73922641D39400AC794B /* CustomButton.swift in Sources */,
+				D06E738B2641C93E00AC794B /* TextFieldWithTitle.swift in Sources */,
+				D06E73842641B12000AC794B /* PointCompiler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D06E737A2641B09800AC794B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D06E737B2641B09800AC794B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D06E737D2641B09800AC794B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "3D Plotting/_D_Plotting.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"3D Plotting/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "3D Plotting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iit.drhea.-D-Plotting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D06E737E2641B09800AC794B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "3D Plotting/_D_Plotting.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"3D Plotting/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "3D Plotting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iit.drhea.-D-Plotting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D06E73672641B09800AC794B /* Build configuration list for PBXProject "3D Plotting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06E737A2641B09800AC794B /* Debug */,
+				D06E737B2641B09800AC794B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06E737C2641B09800AC794B /* Build configuration list for PBXNativeTarget "3D Plotting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06E737D2641B09800AC794B /* Debug */,
+				D06E737E2641B09800AC794B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D06E73642641B09800AC794B /* Project object */;
+}
